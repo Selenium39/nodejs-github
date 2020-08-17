@@ -15,6 +15,7 @@ const Jwt = require('./lib/jwt')
 
 const app = new Koa()
 
+
 // middlewares
 app.use(bodyparser({
   enableTypes: ['json', 'form', 'text']
@@ -29,12 +30,12 @@ app.use(middleware.accessLog());
 
 //authorization
 app.use(middleware.authorization().unless({
-  path: ['/user/login']
+  path: ['/user/login','/github']
 }));
-
 
 // router
 app.use(router.routes(), router.allowedMethods())
+
 
 //config 
 app.context.config = config
@@ -56,6 +57,6 @@ app.context.crypto = new Crypto(logger)
 //error code
 app.context.errCode = errCode
 
-app.listen(3000)
+app.listen(3001)
 
 module.exports = app

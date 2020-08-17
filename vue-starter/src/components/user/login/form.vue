@@ -17,12 +17,15 @@
       <el-form-item>
         <el-button class="login-btn" type="primary" @click="doLogin">登录</el-button>
       </el-form-item>
+      <el-form-item>
+        <a href="https://github.com/login/oauth/authorize?client_id=040f3ffa62dc8853846d&redirect_uri=http://localhost:3001/github" class="iconfont ali-icon-github"></a>
+      </el-form-item>
     </el-form>
   </div>
 </template>
 
 <script>
-import { login, setLoginedUser } from "@/http/axios";
+import { login, setLoginedUser} from "@/http/axios";
 export default {
   data() {
     return {
@@ -79,7 +82,7 @@ export default {
           return false;
         }
       });
-    }
+    },
   }
 };
 </script>

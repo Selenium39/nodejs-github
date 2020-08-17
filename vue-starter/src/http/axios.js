@@ -2,7 +2,7 @@ import axios from 'axios'
 import md5 from 'js-md5';
 
 //后端请求地址
-const baseUrl = 'http://172.25.78.33:3000';
+const baseUrl = 'http://localhost:3001';
 
 //axios实例配置
 const instance = axios.create({
@@ -73,6 +73,14 @@ export function getDemo() {
         }
     });
 }
+
+export function githubLogin() {
+    return instance({
+        url: "https://github.com/login/oauth/authorize?client_id=040f3ffa62dc8853846d&redirect_uri=http://localhost:3001/github",
+        method: "GET"
+    });
+}
+
 //Post请求
 export function login(username, password) {
     return instance({

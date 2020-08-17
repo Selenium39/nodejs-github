@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/views/user/pages/login'
 import Home from '@/views/user/pages/home'
+import Success from '@/views/user/pages/success'
 
 Vue.use(Router)
 
@@ -12,7 +13,13 @@ const router = new Router({
       path: '/',
       name: '首页',
       redirect: '/login',
-    }, {
+    },
+    {
+      name: "success",
+      path: '/login/success',
+      component: Success
+    },
+    {
       path: '/login',
       name: '登录',
       component: Login

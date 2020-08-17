@@ -85,3 +85,131 @@
     at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
     at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
     at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:04:52.503] [31944] [worker] [ERROR] Error: token invalid or expired: 819bd32f-6fd4-4812-bfda-34bfdf8a162c
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:04:54.638] [31944] [worker] [ERROR] Error: token invalid or expired: 819bd32f-6fd4-4812-bfda-34bfdf8a162c
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:04:55.678] [31944] [worker] [ERROR] Error: token invalid or expired: 819bd32f-6fd4-4812-bfda-34bfdf8a162c
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:06:54.519] [31944] [worker] [ERROR] Error: token invalid or expired: 819bd32f-6fd4-4812-bfda-34bfdf8a162c
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:06:54.865] [31944] [worker] [ERROR] Error: token invalid or expired: 819bd32f-6fd4-4812-bfda-34bfdf8a162c
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:06:55.432] [31944] [worker] [ERROR] Error: token invalid or expired: 819bd32f-6fd4-4812-bfda-34bfdf8a162c
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:39:15.081] [21704] [worker] [ERROR] Error: token invalid or expired: 438142a5c42542328340a14e092ae0c6f886c023
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:39:38.539] [21704] [worker] [ERROR] Error: token invalid or expired: 3c9572433be78c7e01551b6846ef1c11b537142f
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:40:38.810] [13764] [worker] [ERROR] Error: token invalid or expired: 35ff95cc0434241ece405724cef4e84ee2b62f1a
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:42:56.349] [3220] [worker] [ERROR] Error: token invalid or expired: 8dad6fae76edb057eba02a2ea6553210e2cf894b
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:43:50.895] [40548] [worker] [ERROR] Error: token invalid or expired: 073bd26d3055cd4e6f3297ffc0168759ee8f6dbf
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:44:01.569] [40548] [worker] [ERROR] Error: token invalid or expired: 6c484d06f3bc9701ef6055a056673fa51e331e9d
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:46:33.996] [40548] [worker] [ERROR] Error: token invalid or expired: 5f7d896045a5a0d26ab4f37c760b21b509f0f5b3
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:48:32.830] [44356] [worker] [ERROR] Error: token invalid or expired: f06c96fe7932b0f996ed28c6490ba2e48a902323
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:48:32.911] [44356] [worker] [ERROR] Error: token invalid or expired: f06c96fe7932b0f996ed28c6490ba2e48a902323
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
+[2020-08-07T13:58:30.658] [8688] [worker] [ERROR] Error: token invalid or expired: 7c275b90300106bb8e8187f5052047f9541ad0d7
+    at Jwt.getPayload (D:\vscode\STARTER\koa-starter\lib\jwt.js:42:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async authorization (D:\vscode\STARTER\koa-starter\middleware\authorization.js:16:26)
+    at async D:\vscode\STARTER\koa-starter\middleware\accessLog.js:7:5
+    at async serve (D:\vscode\STARTER\koa-starter\node_modules\koa-static\index.js:53:9)
+    at async cors (D:\vscode\STARTER\koa-starter\node_modules\koa2-cors\dist\index.js:91:9)
+    at async bodyParser (D:\vscode\STARTER\koa-starter\node_modules\koa-bodyparser\index.js:95:5)
